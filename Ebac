@@ -1,0 +1,18 @@
+
+Algoritmo HoraDeAcordar
+    // Definir variáveis
+    horaAtual: inteiro
+
+    // Solicitar a hora atual ao usuário
+    Escrever("Digite a hora atual (em formato de 24 horas): ")
+    Ler(horaAtual)
+
+    // Verificar a hora atual e exibir mensagem correspondente
+    Se horaAtual >= 6 E horaAtual < 12 Então
+        Escrever("Bom dia! É hora de acordar e começar o dia.")
+    Senão Se horaAtual >= 12 E horaAtual < 18 Então
+        Escrever("Boa tarde! Já é tarde, mas ainda dá tempo de fazer muita coisa.")
+    Senão
+        Escrever("Boa noite! Deveria estar dormindo a essa hora.")
+    Fim Se
+Fim Algoritmo
